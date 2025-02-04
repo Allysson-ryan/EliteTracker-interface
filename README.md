@@ -6,14 +6,18 @@ O **EliteTracker** é um aplicativo para monitorar hábitos diários e auxiliar 
 
 A aplicação permite o registro e monitoramento de hábitos diários, com visualização das métricas em um calendário interativo. Além disso, possui um **temporizador de foco** e se integra a um banco de dados **MongoDB** para armazenar as informações. A autenticação dos usuários é feita através do **GitHub**.
 
-## Funcionalidades
+<br/>
+
+## 🔧 Funcionalidades
 
 - **Monitoramento de hábitos diários**: Acompanhe suas métricas de produtividade.
 - **Temporizador de foco**: Configure e registre sessões de foco.
 - **Calendário interativo**: Visualize suas métricas no calendário.
 - **Autenticação com GitHub**: Realize login com sua conta GitHub para acesso aos dados.
 
-## Tecnologias Utilizadas
+<br/>
+
+## 💡 Tecnologias Utilizadas
 
 - **ReactJS**: Para construção da interface de usuário.
 - **TypeScript**: Adiciona tipagem estática para maior segurança e escalabilidade.
@@ -24,7 +28,9 @@ A aplicação permite o registro e monitoramento de hábitos diários, com visua
 - **Day.js**: Manipulação de datas e visualização no calendário.
 - **GitHub OAuth**: Autenticação de usuários via GitHub.
 
-## Instalação
+<br/>
+
+## 🔄 Instalação
 
 ### Requisitos
 
