@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./globals.d.ts"],
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "esModuleInterop": true
+  },
+  "include": ["src", "./postcss.config.cjs"]
+}

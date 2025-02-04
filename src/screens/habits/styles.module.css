@@ -1,0 +1,152 @@
+.container {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--darck-blue);
+}
+
+.content {
+  padding: 20px;
+  border-right: 1px solid var(--light);
+  height: calc(100% - 40px);
+}
+
+.input {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-top: 40px;
+}
+
+.input input {
+  height: 36px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: var(--white);
+}
+
+.input input::placeholder {
+  color: var(--light);
+}
+
+.input svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--white);
+  cursor: pointer;
+  transition: fill 100ms;
+}
+
+.input svg:hover {
+  fill: var(--light);
+}
+
+.habits {
+  margin-top: 40px;
+}
+
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  border-bottom: 1px solid var(--light);
+  transition: background-color 100ms;
+}
+
+.habit:hover {
+  background-color: var(--darck-light-blue);
+}
+
+.habit-active {
+  background-color: var(--darck-light-blue);
+}
+
+.habit div {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.habit div input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--white);
+  border: none;
+  position: relative;
+}
+
+.habit div input:checked {
+  background-color: var(--info);
+}
+
+.habit div input:checked::after {
+  content: '✔';
+  color: var(--white);
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.habit p {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.habit div svg {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  fill: var(--white);
+  transition: fill 100ms;
+}
+
+.habit div svg:hover {
+  fill: var(--error);
+}
+
+.metrics {
+  padding: 20px;
+}
+
+.metrics h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--white);
+  margin-top: 20px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 80px;
+  border-bottom: 2px solid var(--light);
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}

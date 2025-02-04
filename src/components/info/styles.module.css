@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.container strong {
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.container span {
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: bold;
+  color: var(--light);
+}

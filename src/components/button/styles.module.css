@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--info);
+  color: var(--white);
+  font-size: 16px;
+  height: 36px;
+  width: 100%;
+  border-radius: 4px;
+
+  transition: background 100ms;
+}
+
+.container:hover {
+  background-color: var(--info-hover);
+}
+
+.container svg {
+  height: 25px;
+  width: 25px;
+  margin-right: 4px;
+}
+
+.error {
+  background-color: var(--error);
+}
+
+.error:hover {
+  background-color: var(--error-hover);
+}
+
+.disabled {
+  background-color: var(--light);
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  background-color: var(--light);
+}

@@ -1,0 +1,32 @@
+:root {
+  /* Brand */
+  --primary: #00ed64;
+  --primary-darck: #00684a;
+
+  /* Project */
+  --info: #016bf8;
+  --info-hover: #00357b;
+  --warning: #ffc010;
+  --error: #db3030;
+  --error-hover: #9d1919;
+
+  /* Base */
+  --black-blue: #04141c;
+  --darck-blue: #001e2b;
+  --darck-light-blue: #003045;
+  --neutral: #575757;
+  --light: #828282;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: 'Lexend', serif;
+}
+
+button {
+  cursor: pointer;
+}
